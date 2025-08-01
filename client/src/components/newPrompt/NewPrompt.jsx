@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import './newPrompt.css';
 import Upload from '../upload/Upload';
-import { IKImage } from 'imageKitio-react';
+import { IKImage } from 'imagekitio-react';
 import Markdown from 'react-markdown';
 import model from '../../lib/gemini';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
